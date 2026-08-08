@@ -17,15 +17,15 @@ body {
 .page-container {
   max-width: 960px;
   margin: 0 auto;
-  padding: 32px 24px;
+  padding: 28px 20px;
 }
 
 .hero {
   display: grid;
-  gap: 24px;
+  gap: 20px;
   align-items: center;
   grid-template-columns: 1.5fr 1fr;
-  margin-bottom: 48px;
+  margin-bottom: 40px;
 }
 
 .hero-copy .eyebrow {
@@ -76,9 +76,9 @@ body {
 .logos {
   background: white;
   border-radius: 24px;
-  padding: 30px;
-  box-shadow: 0 22px 60px rgba(15, 23, 42, 0.06);
-  margin-bottom: 24px;
+  padding: 24px;
+  box-shadow: 0 18px 50px rgba(15, 23, 42, 0.06);
+  margin-bottom: 20px;
 }
 
 .logos h2,
@@ -90,8 +90,8 @@ body {
 
 .logos-grid {
   display: grid;
-  gap: 18px;
-  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 12px;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
   align-items: center;
 }
 
@@ -99,15 +99,15 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  min-height: 96px;
-  border-radius: 20px;
-  padding: 18px;
+  min-height: 80px;
+  border-radius: 18px;
+  padding: 12px;
   background: #f8fafc;
   box-shadow: inset 0 0 0 1px rgba(15, 23, 42, 0.06);
 }
 
 .logo-card img {
-  max-height: 50px;
+  max-height: 42px;
   max-width: 100%;
   object-fit: contain;
 }
