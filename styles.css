@@ -57,10 +57,13 @@ body {
   text-align: center;
 }
 
+.profile-avatar,
 .profile-photo {
-  width: 100%;
-  border-radius: 20px;
+  width: 180px;
+  max-width: 100%;
+  border-radius: 50%;
   display: block;
+  margin: 0 auto;
 }
 
 .profile-caption {
@@ -89,7 +92,7 @@ body {
   display: grid;
   gap: 18px;
   grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
-  align-items: stretch;
+  align-items: center;
 }
 
 .logo-card {
@@ -99,10 +102,14 @@ body {
   min-height: 96px;
   border-radius: 20px;
   padding: 18px;
-  font-weight: 700;
-  letter-spacing: 0.01em;
-  text-transform: uppercase;
+  background: #f8fafc;
   box-shadow: inset 0 0 0 1px rgba(15, 23, 42, 0.06);
+}
+
+.logo-card img {
+  max-height: 50px;
+  max-width: 100%;
+  object-fit: contain;
 }
 
 .logo-card.google {
