@@ -69,7 +69,8 @@ body {
 }
 
 .services,
-.social-links {
+.social-links,
+.logos {
   background: white;
   border-radius: 24px;
   padding: 30px;
@@ -77,10 +78,81 @@ body {
   margin-bottom: 24px;
 }
 
+.logos h2,
 .services h2,
 .social-links h2 {
   margin: 0 0 18px;
   font-size: 1.5rem;
+}
+
+.logos-grid {
+  display: grid;
+  gap: 18px;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  align-items: stretch;
+}
+
+.logo-card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 96px;
+  border-radius: 20px;
+  padding: 18px;
+  font-weight: 700;
+  letter-spacing: 0.01em;
+  text-transform: uppercase;
+  box-shadow: inset 0 0 0 1px rgba(15, 23, 42, 0.06);
+}
+
+.logo-card.google {
+  color: #1a73e8;
+  background: #ffffff;
+}
+
+.logo-card.youtube {
+  color: #ffffff;
+  background: #ff0000;
+}
+
+.logo-card.wells-fargo {
+  color: #ffffff;
+  background: #b40000;
+}
+
+.logo-card.playstation {
+  color: #ffffff;
+  background: #003087;
+}
+
+.logo-card.western-union {
+  color: #000000;
+  background: #ffd200;
+}
+
+.logo-card.globant {
+  color: #000000;
+  background: #fcd500;
+}
+
+.logo-card.genentech {
+  color: #ffffff;
+  background: #004776;
+}
+
+.logo-card.backroads {
+  color: #ffffff;
+  background: #2d6a4f;
+}
+
+.logo-card.macys {
+  color: #000000;
+  background: #f4f4f5;
+}
+
+.logo-card.autodesk {
+  color: #ffffff;
+  background: #1c7ed6;
 }
 
 .service-grid {
